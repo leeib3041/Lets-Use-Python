@@ -57,4 +57,4 @@ Let's recap right quick:
 
 Okay, here we go from the start:
   1. Here is what my terminal looks like when I run all the commands I mentioned above.
-  ![](Images/start1)
+  ![](Images/start1.png)
