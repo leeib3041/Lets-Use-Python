@@ -56,5 +56,5 @@ Let's recap right quick:
   2. You figured out whether or not to use a python environment. I will be using Miniconda
 
 Okay, here we go from the start:
-  1. Here is what my terminal looks like when I run all the commands I meantioned above.
-  
+  1. Here is what my terminal looks like when I run all the commands I mentioned above.
+  ![](Images/python1)
