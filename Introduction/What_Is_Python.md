@@ -7,6 +7,8 @@ Python:
   - Is an interpreted language
   - Is dynamically typed
   - Is garbage-collected
+  - Is a scripting language
+  - Is a programming language
   - Can do procedural programming
   - Can do object-oriented programming
   - Can do functional programming
@@ -49,12 +51,21 @@ I use conda, more specifically Miniconda. The two options for conda are:
 
 Both are free to download and use on MacOS/Windows/Linux. For beginners, I recommend using Anaconda because it starts you off with all sorts of packages and it provides a GUI (Anaconda Navigator) to help manage your environments and packages. Miniconda is much more lightweight, installing only a few basic packages and only interacting via terminal. The closest thing I can think of to relate is like using git via GitHub Desktop or terminal. GitHub Desktop simplifies your development workflow by providing a GUI to interact with. Or you could just use git commands in your terminal like you've been doing all this time. For my linux users, it's like using Ubuntu versus Arch Linux.
 
-## Using Python
+## Starting Up Python
 
 Let's recap right quick:
   1. You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
   2. You figured out whether or not to use a python environment. I will be using Miniconda
 
 Okay, here we go from the start:
-  1. Here is what my terminal looks like when I run all the commands I mentioned above.
+  1. Open your terminal
+  2. Here is what my terminal looks like when I run all the commands I mentioned above. Give it a try (don't do it in your python environment yet).
   ![](Images/start1.png)
+  Notice that `pip list` gave me an error but `pip3 list` didn't. You result may vary, but worry about why `pip list` did not work in this instance. Also notice that I have to type `python3` and `pip3` in order to specify version 3.x.x. By default, because we have both version 2 and 3, typing only `python` will refer to python version 2.x.x. This is important because of what we are doing the next step.
+  3. Recall that Python is an interpreted language. In short, that means we do not have to previously create a file to compile. Instead, we will use a Python Interpreter to directly execute our instructions. This is where specifying 2 or 3 is important. Look below:
+  ![](Images/2vs3.png)
+  Just like how we had to specify `python3 --version` to see what build of version 3 we were on, we also have to tell the terminal we want to open python 3's interpreter.
+  4. Now let's exit the interpreter by typing `exit()`. Simple as that.
+  ![](Images/exit.png)
+
+This will be the conclusion of my introduction. In our next lesson, we'll fire up our python's virtual environment (conda) and start coding!
