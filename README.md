@@ -7,3 +7,6 @@ It helps to know the fundamentals of programming. If you know or started learnin
 
 1. **Introduction**
   - [What Is Python](Introduction/What_Is_Python.md)
+
+
+![](Images/start1.png)
