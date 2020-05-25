@@ -68,4 +68,4 @@ Okay, here we go from the start:
   4. Now let's exit the interpreter by typing `exit()`. Simple as that.
   ![](Images/exit.png)
 
-This will be the conclusion of my introduction. In our [next lesson](../Python%20Interpreter/Using_Python), we'll fire up our python's virtual environment (conda) and start coding!
+This will be the conclusion of my introduction. In our [next lesson](../Python%20Interpreter/Using_Python.md), we'll fire up our python's virtual environment (conda) and start coding!

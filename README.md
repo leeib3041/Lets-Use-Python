@@ -6,6 +6,6 @@ It helps to know the fundamentals of programming. If you know or started learnin
 ## Table of Contents
 
 1. **Introduction**
-  - [What Is Python](Introduction/What_Is_Python.md)
+    * [What Is Python](Introduction/What_Is_Python.md)
 2. **Python Interpreter**
-  - [Using Python](Python%20Interpreter/Using_Python.md)
+    * [Using Python](Python%20Interpreter/Using_Python.md)
