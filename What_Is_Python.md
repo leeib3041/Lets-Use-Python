@@ -1,6 +1,6 @@
 # What Is Python
 
-Python is a powerful and easy to learn language. You can learn more about it and its history on their website [Python.org], but we are here to learn about using Python.
+Python is a powerful and easy to learn language. You can learn more about it and its history on their website Python.org, but we are here to learn about using Python.
 
 Python:
   - Is a high-level language
@@ -13,17 +13,17 @@ Python:
 
 ## Python Environments
 
-Like other languages, Python has different versions. Depending on what system you're on, you may or may not already have Python installed. For example, my Mac already came with Python 2.7.16. You can easily check by going into your terminal and typing:
+Like other languages, Python has different versions too. Depending on what system you're on, you may or may not already have Python installed. For example, my Mac already came with Python 2.7.16 and Python 3.7.3. You can easily check by going into your terminal and typing:
 ```
-python --version
+python --version #this prints "Python 2.7.16"
 
 and/or
 
-python3 --version
+python3 --version #this prints "Python 3.7.3"
 ```
 If you don't have it installed, it may ask you to install it. Regardless, we want to install the latest version of Python so we'll walk through this part together (sort of).
 
-There are multiple ways to use python and it can get confusing. The simplest way to use it is via the terminal. All of my professors have recommended using something called "Python environments". Long story short, it allows for version and package control. For example, you build your first application that worked perfect under Python version 2.x.x and X number of different packages with their own version. You can see a list of packages by typing in terminal:
+There are multiple ways to use python and it can get confusing. The simplest way I found to use it is via the terminal. All of my professors have recommended using something called "Python environments". Long story short, it allows for version and package control. For example, you build your first application that worked perfect under Python version 2.x.x and X number of different packages with their own version. You can see a list of packages by typing in terminal:
 ```
 pip list
 
@@ -56,3 +56,5 @@ Let's recap right quick:
   2. You figured out whether or not to use a python environment. I will be using Miniconda
 
 Okay, here we go from the start:
+  1. Here is what my terminal looks like when I run all the commands I meantioned above.
+  
