@@ -61,6 +61,7 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 
   **2.** You figured out whether or not to use a python environment. I will be using Miniconda
 
+
 **Okay, here we go from the start:**
 
   **1.** Open your terminal
