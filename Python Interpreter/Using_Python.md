@@ -27,20 +27,51 @@ conda create --name name_of_env python=version_number
 
 This is fairly simple, and conda does provide a command [cheat sheet](conda-cheatsheet.pdf).
 
-1. Let's first confirm conda is installed on your system, type the command ```conda --version```. If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
+1. Let's first confirm conda is installed on your system:
+```
+conda --version
+```
 ![](Images/version.png)
+If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 
-2. Update conda by `conda update conda`, then `y` to proceed if an update is available.
-3. Check what environments you currently have by typing `conda env list`. You should only have **base**.
+2. Update conda:
+```
+conda update conda
+```
+then `y` to proceed if an update is available.
+3. Check what environments you currently have:
+```
+conda env list
+```
+You should only have **base**.
 ![](Images/list.png)
-4. Let's create a new environment by typing the command `conda create --name python101`. If you want to create an environment with a specific python version, then use `conda create --name python101 python=3.5`. Of course, that `3.5` can be replaced with any valid version number.
+4. Let's create a new environment by typing the command
+```
+conda create --name python101
+```
+If you want to create an environment with a specific python version, then type:
+```
+conda create --name python101 python=3.5
+```
+Of course, that `3.5` can be replaced with any valid version number.
 ![](Images/create.png)
 Type `y` for yes to proceed.
 5. We're given the command to activate our new environment, but before we do let's check our `conda env list`. Note the `*` just before the file path. That indicates what environment is default or you're currently on. Check out what happens below:
 ![](Images/default.png)
-By default, typing `conda activate` without specifying what env after *activate* will open **base**. Try it!
+By default, typing
+```
+conda activate
+```
+without specifying what env after *activate* will open **base**. Try it!
 The terminal lets you know what environment you're currently on by `(name_of_env)` right before your name.
-Now type `conda deactivate` to exit the **base** environment. Next let's specify the env `conda activate python101`.
+Now type
+```
+conda deactivate
+```
+to exit the **base** environment. Next let's specify the env
+```
+conda activate python101
+```
 Again, type the command  `conda env list` and you'll noticed that the `*` has moved down to **python101**
 
 And that's it. Whenever you start this tutorial, just open your terminal and type `conda activate name_of_env` and start coding in python.
