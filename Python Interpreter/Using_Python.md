@@ -27,7 +27,7 @@ conda create --name name_of_env python=version_number
 
 This is fairly simple, and conda does provide a command [cheat sheet](conda-cheatsheet.pdf).
 
-**1.** Let's first confirm conda is installed on your system:
+1. Let's first confirm conda is installed on your system:
 ```
 conda --version
 ```
@@ -36,13 +36,13 @@ conda --version
 
 If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 
-**2.** Update conda:
+2. Update conda:
 ```
 conda update conda
 ```
 then `y` to proceed if an update is available.
 
-**3.** Check what environments you currently have:
+3. Check what environments you currently have:
 ```
 conda env list
 ```
@@ -52,7 +52,7 @@ conda env list
 
 You should only have **base**.
 
-**4.** Let's create a new environment by typing the command
+4. Let's create a new environment by typing the command
 ```
 conda create --name python101
 ```
@@ -66,7 +66,7 @@ Of course, that `3.5` can be replaced with any valid version number.
 
 Type `y` for yes to proceed.
 
-**5.** We're given the command to activate our new environment, but before we do let's check our `conda env list`.
+5. We're given the command to activate our new environment, but before we do let's check our `conda env list`.
 Note the `*` just before the file path. That indicates what environment is default or you're currently on. Check out what happens below:
 
 ![](Images/default.png)
