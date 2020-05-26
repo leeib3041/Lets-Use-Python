@@ -28,6 +28,7 @@ This is fairly simple, and conda does provide a command [cheat sheet](conda-chea
 
 1. Let's first confirm conda is installed on your system, type the command `conda --version`. If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 ![](Images/version.png)
+
 2. Update conda by `conda update conda`, then `y` to proceed.
 3. Check what environments you currently have by typing `conda env list`. You should only have **base**.
 ![](Images/list.png)
@@ -38,7 +39,7 @@ Type `y` for yes to proceed.
 ![](Images/default.png)
 By default, typing `conda activate` without specifying what env after *activate* will open **base**. Try it!
 The terminal lets you know what environment you're currently on by `(name_of_env)` right before your name.
-Now type `conda deactivate` to exit the **base** environment. Next let's specify the env `conda activate python101`
+Now type `conda deactivate` to exit the **base** environment. Next let's specify the env `conda activate python101`.
 Again, type the command  `conda env list` and you'll noticed that the `*` has moved down to **python101**
 
 And that's it. Whenever you start this tutorial, just open your terminal and type `conda activate name_of_env` and start coding in python.
