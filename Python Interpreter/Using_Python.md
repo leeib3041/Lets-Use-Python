@@ -97,4 +97,4 @@ conda activate python101
 8. Now, we named our environment **py3.8** but our python version is 3.7.x. Let's update our python, `conda update python`. Check again and you should see `python 3.8.3`. Well at least at the time of writing this, that is the latest python version. Double check by going onto python.org and checking most recent released version for your OS.
 9. ~~Lastly, lets delete the **python101** env by `conda env remove --name python101`~~ Hold off on this because there is an [issue](https://github.com/conda/conda/issues/9589) that occurred right after I did step 9.
 
-**This whole portion for Python versions is really just aesthetics. If you're okay with typing 'python3' every time, then that's fine! GO to the [next](Using_Interpreter) portion of this lesson**
+**This whole portion for Python versions is really just aesthetics. If you're okay with typing 'python3' every time, then that's fine! GO to the [next](Using_Interpreter.md) portion of this lesson**
