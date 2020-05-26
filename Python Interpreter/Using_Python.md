@@ -33,8 +33,7 @@ conda --version
 ```
 
 ![](Images/version.png)
-
-* If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
+- If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 
 2. Update conda:
 ```
@@ -48,7 +47,6 @@ conda env list
 ```
 
 ![](Images/list.png)
-
 - You should only have **base**.
 
 4. Let's create a new environment by typing the command
@@ -62,14 +60,12 @@ conda create --name python101 python=3.5
 - Of course, that `3.5` can be replaced with any valid version number.
 
 ![](Images/create.png)
-
 - Type `y` for yes to proceed.
 
 5. We're given the command to activate our new environment, but before we do let's check our `conda env list`.
 Note the `*` just before the file path. That indicates what environment is default or you're currently on. Check out what happens below:
 
 ![](Images/default.png)
-
 - By default, typing
 ```
 conda activate
