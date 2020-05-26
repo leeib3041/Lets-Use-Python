@@ -34,13 +34,13 @@ conda --version
 
 ![](Images/version.png)
 
-If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
+- If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 
 2. Update conda:
 ```
 conda update conda
 ```
-then `y` to proceed if an update is available.
+- then `y` to proceed if an update is available.
 
 3. Check what environments you currently have:
 ```
@@ -49,45 +49,44 @@ conda env list
 
 ![](Images/list.png)
 
-
-You should only have **base**.
+- You should only have **base**.
 
 4. Let's create a new environment by typing the command
 ```
 conda create --name python101
 ```
-If you want to create an environment with a specific python version, then type:
+- If you want to create an environment with a specific python version, then type:
 ```
 conda create --name python101 python=3.5
 ```
-Of course, that `3.5` can be replaced with any valid version number.
+- Of course, that `3.5` can be replaced with any valid version number.
 
 ![](Images/create.png)
 
-Type `y` for yes to proceed.
+- Type `y` for yes to proceed.
 
 5. We're given the command to activate our new environment, but before we do let's check our `conda env list`.
 Note the `*` just before the file path. That indicates what environment is default or you're currently on. Check out what happens below:
 
 ![](Images/default.png)
 
-By default, typing
+- By default, typing
 ```
 conda activate
 ```
-without specifying what env after *activate* will open **base**. Try it!
+- without specifying what env after *activate* will open **base**. Try it!
 The terminal lets you know what environment you're currently on by `(name_of_env)` right before your name.
 Now type:
 ```
 conda deactivate
 ```
-to exit the **base** environment. Next let's specify the env:
+- to exit the **base** environment. Next let's specify the env:
 ```
 conda activate python101
 ```
-Again, type the command  `conda env list` and you'll noticed that the `*` has moved down to **python101**
+- Again, type the command  `conda env list` and you'll noticed that the `*` has moved down to **python101**
 
-And that's it. Whenever you start this tutorial, just open your terminal and type `conda activate name_of_env` and start coding in python.
+**And that's it. Whenever you start this tutorial, just open your terminal and type `conda activate name_of_env` and start coding in python.**
 
 ## Python Versions
 
