@@ -55,10 +55,12 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 
 Let's recap right quick:
   1. You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
+
   2. You figured out whether or not to use a python environment. I will be using Miniconda
 
 Okay, here we go from the start:
   1. Open your terminal
+  
   2. Here is what my terminal looks like when I run all the commands I mentioned above. Give it a try (don't do it in your python environment yet).
   ![](Images/start1.png)
   Notice that `pip list` gave me an error but `pip3 list` didn't. Your result may vary, but worry about why `pip list` did not work in this instance. Also, note that I have to type `python3` and `pip3` in order to specify version 3.x.x. By default, because we have both version 2 and 3, typing only `python` will refer to python version 2.x.x. This is important because of what we are doing the next step.
