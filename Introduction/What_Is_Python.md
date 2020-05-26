@@ -27,7 +27,7 @@ python3 --version
 ```
 If you don't have it installed, it may ask you to install it. Regardless, we want to install the latest version of Python so we'll walk through this part together (sort of).
 
-There are multiple ways to use python and it can get confusing. The simplest way I found to use it is via the terminal. All of my professors have recommended using something called "Python environments". Long story short, it allows for version and package control. For example, you build your first application that worked perfect under Python version 2.x.x and X number of different packages with their own version. You can see a list of packages by typing in terminal:
+There are multiple ways to use python and it can get confusing. The simplest way I found to use it is via the terminal and conda. All of my professors have recommended using something called "Python environments". It allows for version and package control. For example, you build your first application that worked perfect under Python version 2.x.x and X number of different packages with their own version. You can see a list of packages by typing in terminal:
 ```
 pip list
 
@@ -39,7 +39,7 @@ Since then you've worked on different projects that require an updated version o
 
 Python environments (also called virtual environment) are helpful because you can create different instances of an environment (conceptually similar to object oriented programming). In the case for above, you could have created an environment names after the project name of your first application. From there, you do the same for all other projects. Now, whenever you want to run that project, you can simply go into that virtual environment and never worry about compatibility issue.
 
-###### The Solution?
+## Tools
 
 **Python package and environment managers**
 
@@ -55,12 +55,13 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 
 ## Starting Up Python
 
-Let's recap right quick:
+**Let's recap right quick:**
 
 **1.** You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
+
 **2.** You figured out whether or not to use a python environment. I will be using Miniconda
 
-Okay, here we go from the start:
+**Okay, here we go from the start:**
 
 **1.** Open your terminal
 
