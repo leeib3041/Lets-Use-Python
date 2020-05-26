@@ -8,31 +8,32 @@ Your results may vary based on what OS and tool you are using. If you are using 
 
 Relevant commands for this lesson:
 ```
-Terminal:
+Shell:
 bash --version
 zsh --version
 
 Conda:
 conda --version
-conda activate #activates default env (base)
-conda activate name_of_env #replace name_of_env with actual environment name
+# activates default env (base)
+conda activate
+# replace 'name_of_env' with actual environment name
+conda activate name_of_env
 conda create --name name_of_env
-conda create --name name_of_env python=version_number #replace version_number with actual version like 2.7 or 3.7
+# replace 'version_number' with actual version like 2.7 or 3.7
+conda create --name name_of_env python=version_number
 ```
-
-Alright, now lets get coding.
 
 ## Activating Conda
 
 This is fairly simple, and conda does provide a command [cheat sheet](conda-cheatsheet.pdf).
 
-1. Let's first confirm conda is installed on your system, type the command `conda --version`. If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
+1. Let's first confirm conda is installed on your system, type the command ``conda --version``. If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 ![](Images/version.png)
 
-2. Update conda by `conda update conda`, then `y` to proceed.
+2. Update conda by `conda update conda`, then `y` to proceed if an update is available.
 3. Check what environments you currently have by typing `conda env list`. You should only have **base**.
 ![](Images/list.png)
-4. For the sake of practicing, lets create a new environment by typing the command `conda create --name python101`. If you want to create an environment with a specific python version, then use `conda create --name python101 python=3.5`. Of course, that `3.5` can be replaced with any valid version number.
+4. Let's create a new environment by typing the command `conda create --name python101`. If you want to create an environment with a specific python version, then use `conda create --name python101 python=3.5`. Of course, that `3.5` can be replaced with any valid version number.
 ![](Images/create.png)
 Type `y` for yes to proceed.
 5. We're given the command to activate our new environment, but before we do let's check our `conda env list`. Note the `*` just before the file path. That indicates what environment is default or you're currently on. Check out what happens below:
