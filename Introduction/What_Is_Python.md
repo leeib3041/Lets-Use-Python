@@ -57,28 +57,27 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 
 **Let's recap right quick:**
 
-  **1.** You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
-
-  **2.** You figured out whether or not to use a python environment. I will be using Miniconda
+1. You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
+2. You figured out whether or not to use a python environment. I will be using Miniconda
 
 
 **Okay, here we go from the start:**
 
-  **1.** Open your terminal
+**1.** Open your terminal
 
-  **2.** Here is what my terminal looks like when I run all the commands I mentioned above. Give it a try (don't do it in your python environment yet).
+**2.** Here is what my terminal looks like when I run all the commands I mentioned above. Give it a try (don't do it in your python environment yet).
 
 ![](Images/start1.png)
 
 - Notice that `pip list` gave me an error but `pip3 list` didn't. Your result may vary, but worry about why `pip list` did not work in this instance. Also, note that I have to type `python3` and `pip3` in order to specify version 3.x.x. By default, because we have both version 2 and 3, typing only `python` will refer to python version 2.x.x. This is important because of what we are doing the next step.
 
-  **3.** Recall that Python is an interpreted language. In short, that means we do not have to previously create a file to compile. Instead, we will use a Python Interpreter to directly execute our instructions. This is where specifying 3 or not is important. Look below:
+**3.** Recall that Python is an interpreted language. In short, that means we do not have to previously create a file to compile. Instead, we will use a Python Interpreter to directly execute our instructions. This is where specifying 3 or not is important. Look below:
 
 ![](Images/2vs3.png)
 
 - Just like how we had to specify `python3 --version` to see what build of version 3 we were on, we also have to tell the terminal we want to open python 3's interpreter.
 
-  **4.** Now let's exit the interpreter by typing `exit()`. Simple as that.
+**4.** Now let's exit the interpreter by typing `exit()`. Simple as that.
 
 ![](Images/exit.png)
 
