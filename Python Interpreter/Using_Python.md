@@ -27,7 +27,7 @@ conda create --name name_of_env python=version_number
 
 This is fairly simple, and conda does provide a command [cheat sheet](conda-cheatsheet.pdf).
 
-1. Let's first confirm conda is installed on your system, type the command ``conda --version``. If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
+1. Let's first confirm conda is installed on your system, type the command ```conda --version```. If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 ![](Images/version.png)
 
 2. Update conda by `conda update conda`, then `y` to proceed if an update is available.
