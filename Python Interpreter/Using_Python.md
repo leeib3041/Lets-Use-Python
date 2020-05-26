@@ -34,13 +34,13 @@ conda --version
 
 ![](Images/version.png)
 
-- If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
+    - If you get an output of its version, then you can move on to the next step. If not, consult with Anaconda.
 
 2. Update conda:
 ```
 conda update conda
 ```
-- then `y` to proceed if an update is available.
+  - then `y` to proceed if an update is available.
 
 3. Check what environments you currently have:
 ```
