@@ -95,3 +95,6 @@ conda activate python101
 6. Exit the env, `conda deactivate`, and create our 2nd new environment `conda create --name py3.8 python=3.7`.
 7. Let's enter our new environment, `conda activate py3.8`, and check our python version again, `python --version`. You should have gotten `python 3.7.x`. Alright, now we're cooking! Just like before, you can specifically ask for python 2 via `python2`.
 8. Now, we named our environment **py3.8** but our python version is 3.7.x. Let's update our python, `conda update python`. Check again and you should see `python 3.8.3`. Well at least at the time of writing this, that is the latest python version. Double check by going onto python.org and checking most recent released version for your OS.
+9. ~~Lastly, lets delete the **python101** env by `conda env remove --name python101`~~ Hold off on this because there is an [issue](https://github.com/conda/conda/issues/9589) that occurred right after I did step 9.
+
+**This whole portion for Python versions is really just aesthetics. If you're okay with typing 'python3' every time, then that's fine!
