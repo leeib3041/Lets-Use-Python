@@ -56,10 +56,12 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 ## Starting Up Python
 
 Let's recap right quick:
+
 **1.** You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
 **2.** You figured out whether or not to use a python environment. I will be using Miniconda
 
 Okay, here we go from the start:
+
 **1.** Open your terminal
 
 **2.** Here is what my terminal looks like when I run all the commands I mentioned above. Give it a try (don't do it in your python environment yet).
@@ -78,4 +80,5 @@ Just like how we had to specify `python3 --version` to see what build of version
 
 ![](Images/exit.png)
 
-This will be the conclusion of my introduction. In our [next lesson](../Python%20Interpreter/Using_Python.md), we'll fire up our python's virtual environment (conda) and start coding!
+
+## This will be the conclusion of my introduction. In our [next lesson](../Python%20Interpreter/Using_Python.md), we'll fire up our python's virtual environment (conda) and start coding!
