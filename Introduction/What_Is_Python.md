@@ -57,9 +57,9 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 
 **Let's recap right quick:**
 
-  **1.** You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
+    **1.** You got your terminal (MacOS, Linux), cmd (Windows), Ubuntu terminal (Windows subsystem for linux, download from Windows Store), or an Python IDE
 
-  **2.** You figured out whether or not to use a python environment. I will be using Miniconda
+    **2.** You figured out whether or not to use a python environment. I will be using Miniconda
 
 **Okay, here we go from the start:**
 
