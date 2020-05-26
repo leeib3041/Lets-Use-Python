@@ -61,6 +61,7 @@ Type `y` for yes to proceed.
 
 5. We're given the command to activate our new environment, but before we do let's check our `conda env list`. Note the `*` just before the file path. That indicates what environment is default or you're currently on. Check out what happens below:
 ![](Images/default.png)
+
 By default, typing
 ```
 conda activate
