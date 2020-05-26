@@ -87,6 +87,7 @@ conda activate python101
 ## Python Versions
 
 1. Let's get into our environment first, `conda activate python101`.
+
 2. Once you are in your env, check your python version `python --version`. You probably got back `Python 2.7.16`. Try `python3 --version` and you probably got something like 3.7.x. Python 2.7.16 is the last version of python2, so it can't be any other version. However, Python 3.7.x is not the latest version.
 3. Let's step back a bit, `conda deactivate`, and go into our **base** env by `conda activate`. Confirm you're in base by looking for **(base)** before your name.
 4. Repeat step 2 by first `python --version`. Notice something different? Now try `python2 --version`. So why is **base** default to python3 but our **python101** default to python2.
