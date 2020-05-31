@@ -160,7 +160,7 @@ int main()
 and our terminal:
 ![](Images/multiply.png)
 
-Now are python:
+Now Python:
 ![](Images/multiplyP.png)
 
 Notice how easy that was in python, in both implementation and execution. But, why even go through all that? Just:
@@ -180,4 +180,4 @@ or
 ```
 either will work the same.
 
-That's it for this lesson, our ![next lesson](../Data%20Types%20and%20Operators) will go into data types and operators. 
+That's it for this lesson, our ![next lesson](../Data%20Types%20and%20Operators) will go into data types and operators.
