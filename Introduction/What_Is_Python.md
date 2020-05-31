@@ -37,7 +37,7 @@ pip3 list
 ```
 Since then you've worked on different projects that require an updated version of Python 2.x.x and Y number of the X different packages you had before. Some time down the line you try opening your first project again, but you get an error. Somewhere in your list of updates caused a compatibility issue. Now what? I guess you can try to downgrade everything or just burn your laptop and start again.
 
-Python environments (also called virtual environment) are helpful because you can create different instances of an environment (conceptually similar to object oriented programming). In the case for above, you could have created an environment names after the project name of your first application. From there, you do the same for all other projects. Now, whenever you want to run that project, you can simply go into that virtual environment and never worry about compatibility issue.
+Python environments (also called virtual environment) are helpful because you can create different instances of an environment (conceptually similar to object oriented programming). In the case for above, you could have created an environment named after the project of your first application. From there, you do the same for all other projects. Now, whenever you want to run that project, you can simply go into that virtual environment and never worry about compatibility issue.
 
 ## Tools
 
@@ -70,7 +70,7 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 
 ![](Images/start1.png)
 
-- Notice that `pip list` gave me an error but `pip3 list` didn't. Your result may vary, but worry about why `pip list` did not work in this instance. Also, note that I have to type `python3` and `pip3` in order to specify version 3.x.x. By default, because we have both version 2 and 3, typing only `python` will refer to python version 2.x.x. This is important because of what we are doing the next step.
+- Notice that `pip list` gave me an error but `pip3 list` didn't. Your result may vary, but don't worry about why `pip list` did not work in this instance. Also, note that I have to type `python3` and `pip3` in order to specify version 3.x.x. By default, because we have both version 2 and 3, typing only `python` will refer to python version 2.x.x. This is important because of what we are doing the next step.
 
 3. Recall that Python is an interpreted language. In short, that means we do not have to previously create a file to compile. Instead, we will use a Python Interpreter to directly execute our instructions. This is where specifying 3 or not is important. Look below:
 

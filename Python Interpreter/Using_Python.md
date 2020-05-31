@@ -1,8 +1,8 @@
 # Using Python
 
-Your results may vary based on what OS and tool you are using. If you are using MacOS(Unix)/Linux/Ubuntu(Windows) terminal, then you should be on par with me. If you are going by other means, your commands may vary but path is the same. Here is what I am working with:
+Your results may vary based on what OS and tool you are using. If you are using MacOS(Unix)/Linux/Ubuntu(Windows) terminal, then you should be on par with me. If you are going by other means, your commands may vary but the fundamentals are the same. Here is what I am working with:
 
-- **MacOS Catalina (v10.15.4)** - You should be find with most of the other MacOS flavors/versions
+- **MacOS Catalina (v10.15.4)** - You should be fine with most of the other MacOS flavors/versions
 - **zsh terminal (v5.7.1)** - bash terminal should be perfectly fine. The difference between the two won't matter at all at this level.
 - **Miniconda (v4.8.3)** - Anaconda and Miniconda should be exactly the same in the terminal. The only difference will be the Anaconda GUI.
 
@@ -14,12 +14,12 @@ zsh --version
 
 Conda:
 conda --version
-# activates default env (base)
+  # activates default env (base)
 conda activate
-# replace 'name_of_env' with actual environment name
+  # replace 'name_of_env' with actual environment name
 conda activate name_of_env
 conda create --name name_of_env
-# replace 'version_number' with actual version like 2.7 or 3.7
+  # replace 'version_number' with actual version like 2.7 or 3.7
 conda create --name name_of_env python=version_number
 ```
 
@@ -93,7 +93,7 @@ conda activate python101
 4. Repeat step 2 by first `python --version`. Notice something different? Now try `python2 --version`. So why is **base** default to python3 but our **python101** default to python2.
 5. Remember that when we create our python environment, we can specify our python version? Let's give that a shot.
 6. Exit the env, `conda deactivate`, and create our 2nd new environment `conda create --name py3.8 python=3.7`.
-7. Let's enter our new environment, `conda activate py3.8`, and check our python version again, `python --version`. You should have gotten `python 3.7.x`. Alright, now we're cooking! Just like before, you can specifically ask for python 2 via `python2`.
+7. Let's enter our new environment, `conda activate py3.8`, and check our python version again, `python --version`. You should have gotten `python 3.7.x`. When we specify the python version when creating an environment, it defaults Python3 instead of Python2! And just like in **base**, you can specifically ask for python 2 via `python2`.
 8. Now, we named our environment **py3.8** but our python version is 3.7.x. Let's update our python, `conda update python`. Check again and you should see `python 3.8.3`. Well at least at the time of writing this, that is the latest python version. Double check by going onto python.org and checking most recent released version for your OS.
 9. ~~Lastly, lets delete the **python101** env by `conda env remove --name python101`~~ Hold off on this because there is an [issue](https://github.com/conda/conda/issues/9589) that occurred right after I did step 9.
 
