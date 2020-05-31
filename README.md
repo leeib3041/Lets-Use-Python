@@ -10,3 +10,5 @@ It helps to know the fundamentals of programming. If you know or started learnin
 2. **Python Interpreter**
     * [Using Python](Python%20Interpreter/Using_Python.md)
     * [Using Interpreter](Python%20Interpreter/Using_Interpreter.md)
+3. **Data Types and Operators**
+    * [Data Types](Data%20Types%20and%20Operators)
