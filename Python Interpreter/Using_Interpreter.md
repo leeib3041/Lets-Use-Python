@@ -26,9 +26,9 @@ Python:
 C is a programming language. Python is also a programming language. Hmm.. okay, but Python is also a scripting language.
 So if Python == scripting == programming then does that mean it's also == C?
 Nope, C is not a scripting language, but rather a compiled language.
-Okay, so Python is a programming and scripting language, but did you know it's also a scripting language? C is not.
+Okay, so Python is a programming and scripting language, but did you know it's also a interpreted language? C is not.
 
-This all confused me, in general while studying Computer Science, because every professor defined it differently. The reality of it is they're all pretty much the same.
+This all confused me, in general while studying Computer Science, because every professor defined it differently. The reality of it is that Python is all of the above.
 
 ```
                         Programming Language             
@@ -41,9 +41,9 @@ Interpreted Language
       (Python)
 ```
 
-This isn't a comprehensive tree. So if you read on job description
+This isn't a comprehensive tree, but it gets the point across. So, if you read on job description
 ```
-Experience in scripting languages
+Experienced in scripting languages
 ```
 You can mark yes!
 
@@ -57,13 +57,13 @@ For me, i'm using a conda environment that was set up and upgraded to Python 3.8
 
 ![](Images/interpreter.png)
 
-This is our editor (for now). So what makes this an interpreted language? The idea is that python does not need to be compiled (like C) before it executes. Behind the scene, it obviously has to compile to machine language from our programming language, but what makes it an **interpreted** language is we don't compile it.
+This is our editor (for now). So what makes this an interpreted language? The idea is that python does not need to be compiled (like C) before it executes. Behind the scene, it obviously has to compile to machine language from our programming language, but what makes it an **interpreted** language is that **we** don't compile it.
 
 Let's code something right quick. I'll explain it in a bit:
 
 ![](Images/hello.png)
 
-Let's do the same thing in C++ (easier to do because we're working with strings).
+Let's do the same thing in C++ (easier to do than in C because we're working with strings).
 1. Create a file - hello.cpp
 ```
 #include <iostream>
@@ -180,4 +180,8 @@ or
 ```
 either will work the same.
 
-That's it for this lesson, our ![next lesson](../Data%20Types%20and%20Operators) will go into data types and operators.
+Another useful key cmd to know is clearing your python interpreter. Because you are in a interpreter environment, your normal terminal commands like ``clear`` doesn't do anything but give you an undefined error. Instead, try **ctrl + L** and it will clear everything on your screen. This doesn't delete anything. That means everything you've done on the interpreter before clearing it (ctrl + L) will still exist.
+
+That was a simple example of how handy the interpreter can be. A more complex example was when I was developing a website, there was an issue with my database queries. I was using Python with Flask, so I was writing my database queries in Python instead of in a SQL language. It's not easy debugging when you have to compile your project to find an error in one section, so I just typed the queries in the interpreter to see what was happening to the data. This way I was able to isolate where the issue was and correct it.
+
+That's it for this lesson, our [next lesson](../Python%20Basics/Data_Types.md) will go into data types and operators.
