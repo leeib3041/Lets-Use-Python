@@ -184,4 +184,4 @@ Another useful key cmd to know is clearing your python interpreter. Because you 
 
 That was a simple example of how handy the interpreter can be. A more complex example was when I was developing a website, there was an issue with my database queries. I was using Python with Flask, so I was writing my database queries in Python instead of in a SQL language. It's not easy debugging when you have to compile your project to find an error in one section, so I just typed the queries in the interpreter to see what was happening to the data. This way I was able to isolate where the issue was and correct it.
 
-That's it for this lesson, our [next lesson](../Python%20Basics/Data_Types.md) will go into data types and conditional statements.
+That's it for this chapter, our [next lesson](../Python%20Basics/Data_Types.md) will go into data types and conditional statements.

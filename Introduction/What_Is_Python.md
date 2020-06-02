@@ -83,4 +83,4 @@ Both are free to download and use on MacOS/Windows/Linux. For beginners, I recom
 ![](Images/exit.png)
 
 
-**This will be the conclusion of my introduction. In our [next lesson](../Python%20Interpreter/Using_Python.md), we'll fire up our python's virtual environment (conda) and start coding!**
+**That concludes this chapter. In our [next lesson](../Python%20Interpreter/Using_Python.md), we'll fire up our python's virtual environment (conda) and start coding!**

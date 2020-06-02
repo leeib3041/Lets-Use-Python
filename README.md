@@ -16,5 +16,5 @@ If you already know about Python interpreters and/or the basics, then skip ahead
     * [Using Python](Python%20Interpreter/Using_Python.md)
     * [Using Interpreter](Python%20Interpreter/Using_Interpreter.md)
 3. **Python Basics**
-    * [Data Types](Python%20Basics/Data%20Types)
-    * [Conditional Statements](Python%20Basics/Conditional%20Statements)
+    * [Data Types](Python%20Basics/Data_Types.md)
+    * [Conditional Statements](Python%20Basics/Conditional_Statements.md)

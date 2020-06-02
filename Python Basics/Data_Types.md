@@ -129,4 +129,4 @@ However, Sets and Dictionary (Keys, duplicate Values are fine) will not. For thi
 
 Learn these terms and data structures because they will not go away. I wish my school taught Python in our classes, but we were just threw into projects using Python without actually learning it. The idea is that after a few semesters of Computer Science courses and learning the fundamentals of programming syntax and conventions, you should be able to start learning new languages on your own.
 
-[Next lesson](/Conditional_Statement.md), we're going to dive into conditional statements and its syntactical differences in Python vs C/C++.
+[Next lesson](/Conditional_Statements.md), we're going to dive into conditional statements and its syntactical differences in Python vs C/C++.
