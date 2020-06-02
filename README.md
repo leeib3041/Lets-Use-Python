@@ -6,7 +6,7 @@ It helps to know the fundamentals of programming. If you know or started learnin
 
 Much of my comparison to Python will be C or C++. If you know C, but not C++, don't worry too much. Much of the syntax is the same.
 
-If you already know about Python interpreters and the basics, then skip ahead to Lesson 3 or 4 (currently still a working process, come back later and hopefully I'll have those lessons completed).
+If you already know about Python interpreters and/or the basics, then skip ahead to Chapter 3 or 4 (currently still a working process, come back later and hopefully I'll have those lessons completed).
 
 ## Table of Contents
 
@@ -15,5 +15,6 @@ If you already know about Python interpreters and the basics, then skip ahead to
 2. **Python Interpreter**
     * [Using Python](Python%20Interpreter/Using_Python.md)
     * [Using Interpreter](Python%20Interpreter/Using_Interpreter.md)
-3. **Data Types and Operators**
-    * [Data Types](Data%20Types)
+3. **Python Basics**
+    * [Data Types](Python%20Basics/Data%20Types)
+    * [Conditional Statements](Python%20Basics/Conditional%20Statements)
